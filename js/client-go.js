@@ -24,9 +24,8 @@ var sdpConstraints = {
 $(function () {
     "use strict";
 
-    var room = '333';
-    // Could prompt for room name:
-    // room = prompt('Enter room name:');
+    // var room = '333';
+    room = prompt('Enter room name:');
 
     var myName, yourName;
 
